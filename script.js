@@ -14,7 +14,7 @@ btn.addEventListener("click",()=>{
 
 
 async function getWeather(city){
-    const key="d763f5b9f6b26d477cc5a65c3d3c7615";
+    const key="caa8b4c42c4ee95300f7b34a01cc7f4e";
     const url=`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}`;
     let res=await axios.get(url,key);
     console.log(res);
@@ -47,8 +47,6 @@ async function getWeather(city){
                 break;
         }
     }
-    
-
 }
 
 
